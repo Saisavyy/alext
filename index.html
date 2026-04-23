@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberNet | The Ultimate Gaming Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">CYBER<span>NET</span></div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#rates">Rates</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero-banner">
+        <div class="hero-content">
+            <h1>LEVEL UP YOUR <br><span>GAMING EXPERIENCE</span></h1>
+            <p>Ultra-fast Fiber Internet | RTX 40-Series Graphics | Ergonomic Gear</p>
+            <a href="#rates" class="btn">View Promos</a>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <section id="about" class="about-section">
+            <h2>About Our <span>Hub</span></h2>
+            <p>Welcome to <strong>CyberNet</strong>, the premier destination for gamers and students in the local area. We provide a high-performance environment equipped with the latest hardware to ensure zero lag and maximum productivity.</p>
+            <div class="specs-grid">
+                <div class="spec-item">500Mbps Fiber</div>
+                <div class="spec-item">Mechanical Keyboards</div>
+                <div class="spec-item">Fully Airconditioned</div>
+            </div>
+        </section>
+
+        <section id="rates" class="pricing-section">
+            <h2 class="section-title">Special <span>Rates</span></h2>
+            <div class="pricing">
+                <div class="card">
+                    <h3>Casual</h3>
+                    <p class="price">₱20</p>
+                    <span>Per 1 Hour</span>
+                </div>
+                <div class="card highlight">
+                    <h3>Gamer Pro</h3>
+                    <p class="price">₱50</p>
+                    <span>Special 3 Hours</span>
+                </div>
+                <div class="card">
+                    <h3>Grinder</h3>
+                    <p class="price">₱15</p>
+                    <span>Per Hr (5+ Hrs)</span>
+                </div>
+            </div>
+
+            <div class="calculator">
+                <h3>Rate Calculator</h3>
+                <input type="number" id="hoursInput" placeholder="Enter hours...">
+                <button onclick="calculatePrice()">Check Total</button>
+                <div id="result" class="results">Total: ₱0</div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 CyberNet Computer Hub. Open 24/7.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
